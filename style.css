@@ -1,0 +1,62 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDC5B4;
+    width:100vw;
+    height:100vh;
+}
+
+.container-gamebox{
+    background-color: #636564;
+    width:600px;
+    height:400px;
+    box-shadow: 10px 10px 50px 10px #000000;
+}
+
+.header{
+    text-align: center;
+    margin-top:20px;
+    font-size: 30px;
+    color:white;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.binaryNumbers{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin:20px;
+    width: 100px;
+    height: 100px;
+    background-color: #779BE7;
+}
